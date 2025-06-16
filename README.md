@@ -15,6 +15,8 @@ Special K&nbsp;&nbsp;<sub>*"Lovingly referred to as the Swiss Army Knife of PC g
 >This repository contains source code for Special K's code injection payload (`SpecialK(32|64).dll`).
 >>Supporting utilities such as SKIF (**S**pecial **K** **I**njection **F**rontend) and the now deprecated SKIM (**S**pecial **K** **I**nstall **M**anger) are maintained as separate projects. Additionally, some older mods built using Special K exist as standalone plug-in DLLs; plug-ins and SKIM are no longer actively maintained, but are accessible via Kaldaien's GitHub profile.
 >
+>(This branch is the main branch, with some security options turned on in VS project files.)
+>
 ><br>**Build Dependencies**
 >
 > All of Special K's build dependencies are included when you clone the repo beginning with 23.5.7. Older versions have an additional dependency on the June 2010 DirectX SDK.

@@ -462,6 +462,9 @@ if exist "$(TargetDir)$(TargetName).exp" ( del "$(TargetDir)$(TargetName).exp" )
       <SDLCheck>false</SDLCheck>
       <DiagnosticsFormat>Caret</DiagnosticsFormat>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <IntelJCCErratum>true</IntelJCCErratum>
+      <GuardEHContMetadata>true</GuardEHContMetadata>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -687,6 +690,9 @@ if exist "$(TargetDir)$(TargetName).exp" ( del "$(TargetDir)$(TargetName).exp" )
       <SDLCheck>false</SDLCheck>
       <DiagnosticsFormat>Caret</DiagnosticsFormat>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <IntelJCCErratum>true</IntelJCCErratum>
+      <GuardEHContMetadata>true</GuardEHContMetadata>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

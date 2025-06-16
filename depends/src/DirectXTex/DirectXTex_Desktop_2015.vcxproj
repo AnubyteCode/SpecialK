@@ -345,6 +345,8 @@
       <SDLCheck>false</SDLCheck>
       <DiagnosticsFormat>Caret</DiagnosticsFormat>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <IntelJCCErratum>true</IntelJCCErratum>
+      <GuardEHContMetadata>true</GuardEHContMetadata>
     </ClCompile>
     <Link>
       <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
@@ -476,6 +478,8 @@
       <SDLCheck>false</SDLCheck>
       <DiagnosticsFormat>Caret</DiagnosticsFormat>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <IntelJCCErratum>true</IntelJCCErratum>
+      <GuardEHContMetadata>true</GuardEHContMetadata>
     </ClCompile>
     <Link>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
