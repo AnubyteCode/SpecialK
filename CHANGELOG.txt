@@ -1,4 +1,31 @@
-﻿25.6.22.2
+﻿25.6.30
+=======
+ + Clamp HDR retrofit alpha in scRGB to [0,1], as it would never have values
+     outside this range in SDR.
+ + Added SKIV to the set of applications that SKIF will disable the
+     GeForce Experience overlay for.
+ + Merge pull request #281 from miguelkmarques:ac-shadows-1-0-6-support
+     * AC Shadows 1.0.6 Support (exception addresses updated)
+
+25.6.29.1
+=========
+ + Added INI option to force DirectStorage games to use the GPU if they initialize
+     DStorage queues without a D3D12 device.
+
+   * This brings back HW accelerated texture streaming to Monster Hunter: Wilds
+
+   [Render.DStorage]
+   UseDummyD3D12DeviceIfNeeded={true|false}  Default: true
+
+    + In many games, DStorage is initialized beofre graphics / windows are init.
+        so it may be necessary to use local injection for this feature.
+
+25.6.29
+=======
+ + Disable drag-n-drop support in xgs framework games.
+ + Reset PlayStation latency counter more frequently on connectivity issues.
+
+25.6.22.2
 =========
  + Improved window layering (Always-on-Top) overrides when "Continue Rendering"
      is used in NVIDIA Vk/DXGI Interop-based games.
